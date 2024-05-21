@@ -1,15 +1,23 @@
 {
   "name": "login-session",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon src/app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "express": "^4.19.2",
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^9.0.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
   }
 }
